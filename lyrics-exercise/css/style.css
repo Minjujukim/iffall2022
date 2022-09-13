@@ -1,0 +1,42 @@
+@import url(https://use.typekit.net/psv5yrf.css);
+@import url(https://use.typekit.net/psv5yrf.css);
+
+
+
+p {
+    color: 	#8FBC8B;
+    text-align: center;
+    font-family: ofelia-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+
+
+}
+
+h1{
+    margin-top: 100px;
+    color: 	#8B4513;
+    text-align: center;
+    font-family: scotch-display-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+    
+}
+
+h2{
+    color: 	#BC8F8F;
+    text-align: center;
+    font-family: scotch-display-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.image {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   
+}
