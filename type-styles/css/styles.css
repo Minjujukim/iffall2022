@@ -1,0 +1,96 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 16%;
+    margin-top: 10%;
+    margin-bottom: 16%;
+    background-color: #7b9acc;
+    color: #FCF6F5;
+}
+
+h1 {
+    margin-left: -10%;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-left: -5%;
+
+}
+
+h3 {
+    margin-left: -9%;
+    font-size: 18px;
+
+}
+
+h4 {
+    font-weight: 300;
+    line-height: 6px;
+    color: #FCF6F5;
+}
+.FontNormal {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.FontBold {
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.FontItalic {
+    font-style: italic;
+    font-size: 24px;
+
+}
+
+.LetterSpacing1 {
+    letter-spacing: .3em;
+    font-size: 24px;
+
+}
+
+.LetterSpacing2 {
+    letter-spacing: -0.06em;
+    font-size: 24px;
+
+}
+
+.TextDeocrationUnderline {
+    text-decoration: underline;
+    font-size: 24px;
+
+}
+
+.TextDeocrationLineThrough {
+    text-decoration: line-through;
+    font-size: 24px;
+
+
+}
+
+.TextDeocrationOverline {
+    text-decoration: overline;
+    font-size: 24px;
+
+}
+
+.TextTransformUppercase {
+    text-transform: uppercase;
+    font-size: 24px;
+
+}
+
+.TextTransformLowercase {
+    text-transform: lowercase;
+    font-size: 24px;
+
+}
+
+.TextTransformCapitalize {
+    text-transform: capitalize;
+    font-size: 24px;
+
+}
