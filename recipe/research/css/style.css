@@ -1,0 +1,35 @@
+body {
+    font-family: urbane-rounded, sans-serif;
+    color:rgb(154, 106, 52);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+ul {
+    background-color: rgb(255, 244, 228);
+    color: rgb(72, 62, 47);
+    text-decoration: underline;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+    line-height: 2.0;
+    text-align: left;
+    padding: 1.4em;
+    margin-top: 5px;
+
+
+}
+
+ol{
+    margin-left: 40px;
+    text-align: left;
+
+}
+
+.explanations {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
