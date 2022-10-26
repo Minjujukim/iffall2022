@@ -1,0 +1,452 @@
+body {
+    /* background-color: rgb(159, 78, 16); */
+    background-color: #F5F1E0;
+
+    font-family: 'DM Serif Display', serif;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+hr.hr1 {
+    margin-top: 30px;
+    border: 1px solid #a05908;
+    border-radius: 5px;
+    width: 85%;
+}
+
+hr.hr2 {
+    border: 1px solid #a05908;
+    width: 25%;
+    margin-left: 345px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+hr.hr3 {
+    margin-top: 175px;
+    border: 1px solid #a05908;
+    border-radius: 5px;
+    width: 85%;
+
+}
+
+hr.hr4 {
+    border: 1px solid #a05908;
+    border-radius: 5px;
+    margin-top: 68px;
+    margin-bottom: 30px;
+    width: 85%;
+
+}
+
+
+/* .main {
+    background-color: #F5F1E0;
+    /* width: 80%;
+    height: 3700px; */
+    margin: auto;
+    padding: 100px 50px;
+    padding-top: 80px;
+    /* border-left: 2px solid#a05908;  */
+} */
+
+.recipe-content {
+    padding-left: 50px;
+    float: center;
+}
+
+.top-texts {
+    margin-top: -100px;
+    display: inline;
+    /* text-shadow: #d5b794 */
+
+}
+
+.how-to {
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    color: #a05908;
+    margin-left: 150px;
+    margin-bottom: -20px;
+    margin-top: 150px;
+    /* display: inline-block; */
+
+}
+
+.caramel {
+    font-family: 'DM Serif Display', serif;
+    font-size: 42px;
+    color: #a05908;
+    margin-left: 150px;
+    display: inline-block;
+    margin-top: 70px;
+
+}
+
+.top-image {
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    float: right;
+    margin-right: 150px;
+    border: 2px solid #a05908;
+    margin-top: -100px;
+}
+
+.ingredients {
+    margin-top: 30px;
+
+}
+.title {
+    display: block;
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    color: #a05908;
+    text-align: center;
+   
+
+}
+
+.ingredient-servings {
+    display: block;
+    color: #a05908;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.ingredient-box-1 {
+    display: block;
+    width: 200px;
+    height: 450px;
+    margin: auto;
+
+}
+
+.ingredient-box-2 {
+    display: block;
+    width: 400px;
+    height: 450px;
+    border-left: 2px solid #b87121;
+    text-align: center;
+}
+
+.for-caramel {
+    color: #b87121;
+    font-size: 24px;
+    margin-top: 12px;
+    font-family: 'DM Serif Text', serif;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.for-pudding {
+    text-align: center;
+    color: #b87121;
+    font-size: 24px;
+    font-family: 'DM Serif Text', serif;
+    margin-top: -160px;
+}
+
+.recipe-pudding-text {
+    /* display: block;
+    text-align: center;
+    color: #b87121;
+    font-size: 24px;
+    font-family: 'DM Serif Text', serif; */
+
+
+    color: #b87121;
+    font-size: 24px;
+    margin-top: 12px;
+    font-family: 'DM Serif Text', serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+table.for-caramel-box {
+    border-spacing: 30px;
+    border: 1.6px solid #b87121;
+    width: 300px;
+    height: 100px;
+    color: #724410;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.for-pudding-box {
+    border-spacing: 30px;
+    border: 1.6px solid #b87121;
+    width: 300px;
+    height: 100px;
+    color: #724410;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.value {
+    margin-left: 200px;
+    border-bottom: 1px #8c520f solid;
+    border: 20%;
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.food{
+    /* padding-top: 10px; */
+    font-weight: 400;
+}
+
+p.fyi {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    color: #b87121;
+    margin-left: 14%;
+    margin-top: 10px;
+}
+
+.recipe-right {
+    width: 65%;
+    height: auto;
+    float: right;
+    border: 1.6px solid #b87121;
+    margin: 19px 0;
+    margin-right: 31px;
+    margin-top: 30px;
+    
+
+}
+
+.recipe-steps {
+    font-family: 'DM Sans', sans-serif;
+    color: #714008;
+    line-height: 50px;
+    font-size: 22px;
+    margin: 40px 50px;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+.image {
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 70px;
+    border: 7px solid #d8d4c3;
+    /* border-radius: 30%; */
+}
+
+@media(max-width: 320px) {
+    .recipe-right {
+        margin: auto;
+    }
+
+    .value{
+        font-size: 16px;
+    }
+
+    .food {
+        font-size: 16px;
+    }
+
+    talbe.for-pudding-box {
+        padding: 0px;
+    }
+}
+
+@media(max-width: 375px) {
+
+}
+
+@media(max-width: 425px) {
+
+    main {
+        width: 100%;
+
+    }
+    .how-to {
+         margin-left: 30px;;  
+         font-size: 36px; 
+         text-align: center;
+         margin-top: 30px;
+         margin-bottom: 30px;
+    }
+
+    .caramel {
+        font-size: 48px;
+        margin: auto;
+        text-align: center;
+        margin-left: 0;
+        padding-right: 56px;
+        padding-top: 30px;
+
+    }
+    .top-image {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: block;
+        float: none;
+    }
+
+
+    hr {
+        display: none;
+    }
+
+    .title {
+        marign-top: 50px;
+
+    }
+
+    table.for-caramel-box {
+        width: 80%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    table.for-pudding-box {
+        padding:0;
+        border-spacing: 18px;
+    }
+    table {
+        /* display: inline; */
+        /* border: */
+    }
+
+    p.fyi {
+        margin-bottom: 52px;
+    }
+
+
+    .recipe-right {
+        margin-right: 16%;
+    }
+    .recipe-left {
+        margin: auto;
+       
+    }
+
+    .image {
+        display: block;
+        margin-left: 26%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .top-texts {
+        display: block;
+        margin: 50px;
+    }
+
+    .how-to {
+        margin: auto;
+        margin-top: 60px;
+        padding: 8%;
+
+    }
+
+    .hr2 {
+        display: none;
+    }
+
+    .caramel {
+        display: block;
+        margin-left: 52px;
+        margin-top: -42px;
+
+    }
+
+    .top-image {
+        margin-right: 55px;
+        margin-top: -18px;
+        margin-bottom: 40px;
+
+    }
+
+    table.for-pudding-box {
+        padding: 0 16px;
+    }
+
+    p.fyi {
+        margin-left: 18%;
+    }
+
+    .recipe-right {
+        float: none;
+        margin: auto;
+        margin-top: 30px;
+        width: 78%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .top-image {
+        margin-right: 40px;
+    }
+}
+
+@media(max-width: 1440px) {
+    p.fyi {
+        margin-left: 25%;
+    }
+
+    .image {
+        margin-bottom: 45px;
+    }
+}
+
+
+
+
+/* @media (min-width: 156px) and (max-width: 1024px) {
+    main {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    table.for-caramel.box {
+        padding-right: 20px;
+        padding-left: 20px;
+
+    }
+}
+
+@media all and (max-width: 1024px) {
+    html { 
+        font-size: 14pt;
+        margin: auto; }
+
+
+@media all and (max-width:640px) {
+    section {
+                height: auto;
+                margin: auto;
+                width: 100%;
+                padding: 0;
+                position: relative;
+                display: block;}
+        } */
+
+
+
+
+
+
