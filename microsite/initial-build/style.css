@@ -1,0 +1,138 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:#f3f3f3;
+}
+
+
+.cover {
+    width: 100%;
+}
+
+.title {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    right: 96px;
+    top: 284px;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #B5BCFF;
+    position: absolute;
+    right: 140px;
+    top: 370px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.son {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    left: 82px;
+    top: 80px;
+    font-weight: 400;
+}
+
+.early-life {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    color: #B5BCFF;
+    font-size: 20px;
+    left: 82px;
+    top: 300px;
+
+}
+
+.professional {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    color: #B5BCFF;
+    font-size: 20px;
+    left: 82px;
+    top: 380px;
+}
+
+.senior-career {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    color: #B5BCFF;
+    font-size: 20px;
+    left: 82px;
+    top: 460px;
+}
+
+.national-team {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    color: #B5BCFF;
+    font-size: 20px;
+    left: 82px;
+    top: 540px;
+}
+
+.awards {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    color: #B5BCFF;
+    font-size: 20px;
+    left: 82px;
+    top: 620px;
+}
+
+.side {
+    width: 22%;
+    height: 700px;
+    float: left;
+    margin-top: -10px;
+    background-color: #10164A;
+}
+
+.main {
+    height: 300px;
+}
+
+.achievements {
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.ach-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #4653CD;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 36px;
+    left: 400;
+    position: absolute;
+
+
+}
+
+.ach-yr {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    display: inline;
+    color: #0f0f0f;
+    margin-top: 20px;
+    margin-right: 70px;
+    z-index: 2;
+    position: relative;
+    margin-top: 100px;
+    
+   
+
+
+}
