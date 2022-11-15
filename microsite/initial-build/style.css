@@ -20,7 +20,7 @@ body {
     font-weight: 700;
 }
 
-.subtitle {
+.quote {
     color: #B5BCFF;
     position: absolute;
     right: 140px;
@@ -40,7 +40,7 @@ body {
     font-weight: 400;
 }
 
-.early-life {
+.nav-awards {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     position: absolute;
@@ -51,7 +51,7 @@ body {
 
 }
 
-.professional {
+.nav-early-life {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     position: absolute;
@@ -61,7 +61,7 @@ body {
     top: 380px;
 }
 
-.senior-career {
+.nav-club-career {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     position: absolute;
@@ -71,7 +71,7 @@ body {
     top: 460px;
 }
 
-.national-team {
+.nav-international-team {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     position: absolute;
@@ -81,7 +81,7 @@ body {
     top: 540px;
 }
 
-.awards {
+.nav-awards {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     position: absolute;
@@ -93,13 +93,13 @@ body {
 
 .side {
     width: 22%;
-    height: 700px;
+    height: 2000px;
     float: left;
     margin-top: -10px;
     background-color: #10164A;
 }
 
-.main {
+.content {
     height: 300px;
 }
 
@@ -117,6 +117,8 @@ body {
     font-size: 36px;
     left: 400;
     position: absolute;
+    display: block;
+    line-height: 30px;
 
 
 }
@@ -124,15 +126,31 @@ body {
 .ach-yr {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
-    display: inline;
+    /* display: inline; */
     color: #0f0f0f;
     margin-top: 20px;
     margin-right: 70px;
     z-index: 2;
     position: relative;
     margin-top: 100px;
-    
-   
 
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.main-title {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.sub-title {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.body-text {
+    font-family: 'Raleway', sans-serif;
 
 }
