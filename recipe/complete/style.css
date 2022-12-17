@@ -45,11 +45,11 @@ hr.hr4 {
     background-color: #F5F1E0;
     /* width: 80%;
     height: 3700px; */
-    margin: auto;
+    /* margin: auto;
     padding: 100px 50px;
-    padding-top: 80px;
+    padding-top: 80px; */
     /* border-left: 2px solid#a05908;  */
-} */
+/* } */
 
 .recipe-content {
     padding-left: 50px;
@@ -86,7 +86,7 @@ hr.hr4 {
 
 .top-image {
     border-radius: 50%;
-    width: 300px;
+    width: 20.8%;
     height: auto;
     float: right;
     margin-right: 150px;
@@ -118,8 +118,10 @@ hr.hr4 {
 }
 
 .ingredient-box-1 {
-    display: block;
-    width: 200px;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    /* width: 200px; */
     height: 450px;
     margin: auto;
 
@@ -214,6 +216,11 @@ p.fyi {
     margin-top: 10px;
 }
 
+.recipe-left {
+    margin-left: 6%;
+    margin-top: 1%;
+}
+
 .recipe-right {
     width: 65%;
     height: auto;
@@ -249,6 +256,115 @@ strong {
     /* border-radius: 30%; */
 }
 
+
+
+
+
+footer {
+    height: 200px;
+    clear: both;
+}
+
+.bottom {
+    /* position: relative; */
+    /* float: right; */
+    width: 100%;
+    background-color: #b87121;
+    height: 204px;
+    display: inline-block;
+    z-index: -2;
+    bottom: 0;
+    position: relative;
+
+
+}
+
+.bottom-content {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 2.5%;
+}
+
+.allCreators{
+    margin-left: 10%;
+    display: flex;
+}
+
+.copyright {
+    font-family: 'DM Sans', sans-serif;
+    color: #f3f3f3;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.copyright-3 {
+    font-family: 'DM Sans', sans-serif;
+    color: #f3f3f3;
+    font-size: 12px;
+    line-height: 16px;
+
+
+}
+
+.copyright-block {
+    display: inline-block;
+    
+}
+
+.creator {
+    margin-top: 2.5%;
+    width: 150px;
+}
+
+.footer-name {
+    font-family: 'DM Sans', sans-serif;
+    color: #f3f3f3;
+    display: inline;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bolder;
+    margin-bottom: 45px;
+
+
+}
+
+.footer-title {
+    font-family: 'DM Sans', sans-serif;
+    color: #f3f3f3;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 20px;
+
+}
+
+.footer-title a {
+    /* text-decoration: none; */
+    color: #f3f3f3;
+
+}
+
+.footer-title a:visited{
+    /* text-decoration: none; */
+    color: #f3f3f3;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 320px) {
     .recipe-right {
         margin: auto;
@@ -262,16 +378,25 @@ strong {
         font-size: 16px;
     }
 
-    talbe.for-pudding-box {
+    table.for-pudding-box {
         padding: 0px;
+    }
+    footer {
+        display:none;
     }
 }
 
 @media(max-width: 375px) {
-
+    footer {
+        display:none;
+    }
 }
 
 @media(max-width: 425px) {
+
+    footer {
+        display:none;
+    }
 
     main {
         width: 100%;
@@ -337,7 +462,9 @@ strong {
         margin-right: 16%;
     }
     .recipe-left {
-        margin: auto;
+        /* margin: auto; */
+        margin-left: 15%;
+        /* display: flex; */
        
     }
 
@@ -352,12 +479,14 @@ strong {
     .top-texts {
         display: block;
         margin: 50px;
+
     }
 
     .how-to {
         margin: auto;
         margin-top: 60px;
         padding: 8%;
+        margin-bottom: 20px;
 
     }
 
@@ -369,6 +498,7 @@ strong {
         display: block;
         margin-left: 52px;
         margin-top: -42px;
+        font-size: 32px;
 
     }
 
@@ -376,6 +506,8 @@ strong {
         margin-right: 55px;
         margin-top: -18px;
         margin-bottom: 40px;
+        width: 30%;
+        height: auto;
 
     }
 
@@ -391,6 +523,7 @@ strong {
         float: none;
         margin: auto;
         margin-top: 30px;
+        margin-left:12%;
         width: 78%;
         margin-bottom: 30px;
     }
@@ -398,7 +531,26 @@ strong {
 
 @media(max-width: 1024px) {
     .top-image {
-        margin-right: 40px;
+        margin-right: 60px;
+        /* width: 200px; */
+        /* height: auto; */
+
+    }
+
+    .caramel {
+        font-size: 36px;
+    }
+
+    .recipe-right {
+        margin-right: 16%;;
+    }
+
+    .recipe-left {
+        margin-left: 0%;
+    }
+
+    p.fyi {
+        margin-left: 20%;
     }
 }
 
